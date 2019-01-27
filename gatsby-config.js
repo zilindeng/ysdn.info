@@ -1,6 +1,6 @@
 module.exports = {
    siteMetadata: {
-      title: 'index.html'
+      title: 'ysdn.info'
    },
    plugins: [
       `gatsby-transformer-sharp`, // Transformer-Sharp MUST GO BEFORE Plugin-Sharp

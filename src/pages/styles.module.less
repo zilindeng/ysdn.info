@@ -25,14 +25,16 @@ body {
    background-color: black;
    display: grid;
    grid-template-columns: repeat(1, 1fr);
-   margin: 0 40px;
+   margin: 0 6%;
    grid-column-gap: 3%;
 
    @media @tablet {
+      margin: 0 40px;
       grid-template-columns: repeat(4, 1fr);
    }
 
    @media @desktop {
+      margin: 0 40px;
       grid-template-columns: repeat(5, 1fr);
    }
 }
@@ -89,11 +91,23 @@ h2 {
 
 .wiki {
    color: white;
-   margin: 40px 40px;
+   margin: 0 6%;
    text-align: justify;
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(1, 1fr);
    gap: 3%;
+
+   @media @tablet {
+      margin: 40px 40px;
+      text-align: justify;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   @media @desktop {
+      margin: 40px 40px;
+      text-align: justify;
+      grid-template-columns: repeat(2, 1fr);
+   }
 }
 
 p {
@@ -101,5 +115,13 @@ p {
 }
 
 .headline {
-   margin: 18vh 0 0 40px;
+   margin: 18vh 0 0 6%;
+
+   @media @tablet {
+      margin: 0 40px;
+   }
+
+   @media @desktop {
+      margin: 0 40px;
+   }
 }
