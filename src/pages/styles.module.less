@@ -1,0 +1,105 @@
+@import (reference) "../utils/constant.less";
+
+html {
+   font-size: @base-mobile;
+   font-family: Arial, Helvetica, sans-serif;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   @media @tablet {
+      font-size: @base-tablet;
+   }
+   @media @desktop {
+      font-size: @base-desktop;
+   }
+}
+
+body {
+   color: white;
+   background-color: @bg-default;
+   margin: 0;
+}
+
+.wrapper {
+   background-color: black;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   margin: 0 40px;
+   grid-column-gap: 3%;
+
+   @media @tablet {
+      grid-template-columns: repeat(4, 1fr);
+   }
+
+   @media @desktop {
+      grid-template-columns: repeat(5, 1fr);
+   }
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   height: 100vh;
+   align-items: center;
+   -webkit-overflow-scrolling: touch;
+
+   @media @mobile-horizontal {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+   }
+
+   @media @tablet {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+   }
+
+   @media @desktop {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+   }
+}
+
+.unorderedList {
+   list-style-type: none;
+   color: white;
+   padding: 0;
+}
+
+
+sup {
+   vertical-align: top;
+   margin-left: .5em;
+   color: white;
+   font-size: 12px;
+}
+
+h2 {
+   font-weight: normal;
+}
+
+.header {
+   margin-bottom: 2em;
+}
+
+.wiki {
+   color: white;
+   margin: 40px 40px;
+   text-align: justify;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 3%;
+}
+
+p {
+   text-indent: 2em;
+}
+
+.headline {
+   margin: 18vh 0 0 40px;
+}

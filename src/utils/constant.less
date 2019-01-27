@@ -1,0 +1,186 @@
+// Variables
+// Margin
+@margin-0: 0;
+// Font Weight
+@normal: 400; // Default
+@bold: 500;
+// Opacity
+@opac-100: 1;
+@opac-87: 0.87; // Default
+@opac-50: 0.50;
+@opac-34: 0.34;
+@opac-13: 0.13;
+// Text Color
+@text-100: rgba(0,0,0,1);
+@text-87: rgba(0,0,0,0.87); // Default
+@text-50: rgba(0,0,0,0.50);
+@text-34: rgba(0,0,0,0.34);
+@text-13: rgba(0,0,0,0.13);
+// Background Color
+@bg-default: #000000;
+// Media Queries
+@mobile: ~"only screen and (min-width: 0px) and (max-width: 414px)";
+@mobile-horizontal: ~"only screen and (min-width: 415px) and (max-width: 823px) and (max-height: 414px)";
+@tablet: ~"only screen and (min-width: 415px) and (max-width: 1024px)";
+@desktop: ~"only screen and (min-width: 1025px) and (max-width: 2560px)";
+// Type Scale
+@small: 1;
+@medium: 2.8;
+@large: 3.6;
+// Type Size (Viewport Width % Based)
+@h1: 10vw;
+@h2: 9vw;
+@h3: 7vw;
+@h4: 6vw;
+@base: 4.5vw;
+@h5: 4vw;
+@h6: 3.5vw;
+@figcaption: 3.4vw;
+// Type Size Constants
+@h1-mobile: @h1/@small;
+@h1-tablet: @h1/@medium;
+@h1-desktop: @h1/@large;
+@h2-mobile: @h2/@small;
+@h2-tablet: @h2/@medium;
+@h2-desktop: @h2/@large;
+@h3-mobile: @h3/@small;
+@h3-tablet: @h3/@medium;
+@h3-desktop: @h3/@large;
+@h4-mobile: @h4/@small;
+@h4-tablet: @h4/@medium;
+@h4-desktop: @h4/@large;
+@h5-mobile: @h5/@small;
+@h5-tablet: @h5/@medium;
+@h5-desktop: @h5/@large;
+@h6-mobile: @h6/@small;
+@h6-tablet: @h6/@medium;
+@h6-desktop: @h6/@large;
+@figcaption-mobile: @figcaption/@small;
+@figcaption-tablet: @figcaption/@medium;
+@figcaption-desktop: @figcaption/@large;
+@base-mobile: @base/@small;
+@base-tablet: @base/@medium;
+@base-desktop: @base/@large;
+
+html {
+   font-size: @base-mobile;
+   font-family: "system-ui", sans-serif;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   @media @tablet {
+      font-size: @base-tablet;
+   }
+   @media @desktop {
+      font-size: @base-desktop;
+   }
+}
+
+body {
+   color: @text-87;
+   background-color: @bg-default;
+   margin: 0;
+}
+
+p {
+   margin-bottom: 1.3em;
+   line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 1.414em 0 0.5em;
+   font-weight: inherit;
+   line-height: 1.2;
+}
+
+figcaption {
+   margin: 0;
+   line-height: 1;
+}
+
+h1 {
+   font-size: @h1-mobile;
+   font-weight: @normal;
+   margin: @margin-0;
+   @media @tablet {
+      font-size: @h1-tablet;
+   }
+   @media @desktop {
+      font-size: @h1-desktop;
+   }
+}
+
+h2 {
+   font-size: @h2-mobile;
+   font-weight: @bold;
+   @media @tablet {
+      font-size: @h2-tablet;
+   }
+   @media @desktop {
+      font-size: @h2-desktop;
+   }
+}
+
+h3 {
+   font-size: @h3-mobile;
+   font-weight: @normal;
+   @media @tablet {
+      font-size: @h3-tablet;
+   }
+   @media @desktop {
+      font-size: @h3-desktop;
+   }
+}
+
+h4 {
+   font-size: @h4-mobile;
+   font-weight: @normal;
+   @media @tablet {
+      font-size: @h4-tablet;
+   }
+   @media @desktop {
+      font-size: @h4-desktop;
+   }
+}
+
+h5 {
+   font-size: @h5-mobile;
+   font-weight: @normal;
+   @media @tablet {
+      font-size: @h5-tablet;
+   }
+   @media @desktop {
+      font-size: @h5-desktop;
+   }
+}
+
+h6 {
+   font-size: @h6-mobile;
+   font-weight: @normal;
+   @media @tablet {
+      font-size: @h6-tablet;
+   }
+   @media @desktop {
+      font-size: @h6-desktop;
+   }
+}
+
+figcaption {
+   font-size: @figcaption-mobile;
+   font-weight: @normal;
+   @media @tablet {
+      font-size: @figcaption-tablet;
+   }
+   @media @desktop {
+      font-size: @figcaption-desktop;
+   }
+}
+
+sup {
+   opacity: @opac-50;
+}
+
+hr {
+   opacity: @opac-34;
+}
