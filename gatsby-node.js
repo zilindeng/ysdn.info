@@ -33,7 +33,7 @@ exports.createPages = ({ actions, graphql }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: graduatePostTemplate, // Template
+        // component: graduatePostTemplate, // Template
         context: {}, // additional data can be passed via context
       })
     })
