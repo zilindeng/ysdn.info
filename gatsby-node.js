@@ -2,43 +2,43 @@ const path = require("path")
 const { createFilePath } = require('gatsby-source-filesystem');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2');
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+// exports.createPages = ({ actions, graphql }) => {
+//   const { createPage } = actions
 
-  // const graduatePostTemplate = path.resolve(`src/markdown/templates/graduateTemplate.js`)
+//   const graduatePostTemplate = path.resolve(`src/markdown/templates/graduateTemplate.js`)
 
-  return graphql(`
-    {
-      allMarkdownRemark(
-        limit: 1000
-      ) {
-        totalCount
-        edges {
-          node {
-            frontmatter {
-              path
-              name
-              website
-              year
-            }
-          }
-        }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors)
-    }
+//   return graphql(`
+//     {
+//       allMarkdownRemark(
+//         limit: 1000
+//       ) {
+//         totalCount
+//         edges {
+//           node {
+//             frontmatter {
+//               path
+//               name
+//               website
+//               year
+//             }
+//           }
+//         }
+//       }
+//     }
+//   `).then(result => {
+//     if (result.errors) {
+//       return Promise.reject(result.errors)
+//     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        // component: graduatePostTemplate, // Template
-        context: {}, // additional data can be passed via context
-      })
-    })
-  })
-}
+//     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+//       createPage({
+//         path: node.frontmatter.path,
+//         component: graduatePostTemplate, // Template
+//         context: {}, // additional data can be passed via context
+//       })
+//     })
+//   })
+// }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
