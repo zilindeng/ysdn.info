@@ -10,7 +10,6 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
         totalCount
@@ -18,13 +17,9 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               path
-              cover {
-                 childImageSharp {
-                    sizes(maxWidth: 1240) {
-                       srcSet
-                    }
-                 }
-              }
+              name
+              website
+              year
             }
           }
         }
