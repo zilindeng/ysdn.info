@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import style from './layout.module.less'
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -27,11 +25,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className={style.wrapper}>
-           <div className={style.content}>
-             {children}
-           </div>
-        </div>
+          {children}
       </>
     )}
   />

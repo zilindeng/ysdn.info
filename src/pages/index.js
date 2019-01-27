@@ -1,9 +1,10 @@
 import React from "react"
 import GraduateLink from "../components/graduate-link"
+import Layout from '../components/layout'
 
 import style from './styles.module.less'
 
-const ReadingPage = ({
+const IndexPage = ({
   data: {
     allMarkdownRemark: { edges, totalCount, },
   },
@@ -22,7 +23,7 @@ const ReadingPage = ({
 
   const Total = totalCount
 
-  return <div>
+  return <Layout>
      <div className={style.wiki}>
       <p>York/Sheridan Design was a four-year university degree program delivered jointly by York University located in Toronto, Ontario and Sheridan College in Oakville, Ontario, from 1999 to 2018. 
       This was the first and largest program in Ontario that offered the Bachelor of Design Specialized Honours degree.<sup>1</sup> <br/><br/> The joint program has been <i>discontinued.</i>
@@ -85,10 +86,10 @@ const ReadingPage = ({
       </div>
 
             <div className={style.headline}><small>Last Updated Jan 26, 2019</small></div>
-         </div> 
+         </Layout> 
 }
 
-export default ReadingPage
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
