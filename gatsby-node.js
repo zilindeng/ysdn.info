@@ -5,7 +5,7 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images-v2');
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const graduatePostTemplate = path.resolve(`src/markdown/templates/graduateTemplate.js`)
+  // const graduatePostTemplate = path.resolve(`src/markdown/templates/graduateTemplate.js`)
 
   return graphql(`
     {
