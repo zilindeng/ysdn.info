@@ -54,7 +54,7 @@ const IndexPage = ({
                <ul className={style.unorderedList}>
                   <div className={style.header}>
                     / 2017
-                    <sup>(Y2017.length)</sup>
+                    <sup>({Y2017.length})</sup>
                   </div>
                   {Y2017}
                </ul>
