@@ -17,6 +17,10 @@ const IndexPage = ({
     .filter(edge => edge.node.frontmatter.year === 2018) // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)
 
+  const Y2017 = edges
+    .filter(edge => edge.node.frontmatter.year === 2017) // You can filter your posts based on some criteria
+    .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)  
+
   const Y2016 = edges
     .filter(edge => edge.node.frontmatter.year === 2016) // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)
@@ -50,9 +54,9 @@ const IndexPage = ({
                <ul className={style.unorderedList}>
                   <div className={style.header}>
                     / 2017
-                    <sup>(?)</sup>
+                    <sup>(Y2017.length)</sup>
                   </div>
-                  <i>Work in Progress</i>
+                  {Y2017}
                </ul>
                <ul className={style.unorderedList}>
                   <div className={style.header}>
