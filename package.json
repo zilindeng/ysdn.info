@@ -23,7 +23,8 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "react-spring": "^7.2.5"
+    "react-spring": "^7.2.5",
+    "terser": "3.14.1"
   },
   "keywords": [
     "gatsby"
