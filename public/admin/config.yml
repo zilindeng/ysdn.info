@@ -5,69 +5,52 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 
 collections:
-  - name: blog
-    label: Blog
-    folder: src/content/blog
+  - label: "2019 Graduates"
+    name: "class2019"
+    folder: "src/content/graduates"
     create: true
+    filter: {field: "year", value: "2019"}
     fields:
-      - { name: path, label: Path, hint: "The path will help users navigate to your post. Format: /blog/(blog-url-here)" }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: subtitle, label: Subtitle }
-      - { name: cover, label: Cover, widget: image, required: false }
-      - { name: body, label: Body, widget: markdown }
-
-  - name: reading
-    label: Reading
-    folder: src/content/reading
-    create: true
-    fields:
-      - { name: path, label: Path, hint: "The path will help users navigate to your post. Format: /read/(blog-url-here)" }
-      - { name: link, label: Link, hint: "Copy & Paste URL" }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: subtitle, label: Subtitle }
-      - { name: cover, label: Cover, widget: image, required: false }
-
-  - name: graduates
-    label: Graduates
-    folder: src/content/graduates
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: cover, label: Cover, widget: image, required: false }
-      - { name: name, label: Name }
-      - { name: portfolio, label: Portfolio, required: false }
-      - { name: linkedin, label: LinkedIn, required: false }
-      - { name: twitter, label: Twitter, required: false }
-      - { name: instagram, label: Instagram, required: false }
-      - { name: medium, label: Medium, required: false }
-      - { name: dribble, label: Dribble, required: false }
-      - { name: behance, label: Behance, required: false }
-      - { name: interestArea, label: Interests, required: false }
-      - { name: where, label: Location, required: false }
-      - { name: relocation, label: Relocation, required: false }
-
+      - {label: "Path", name: "path", required: true }
+      - {label: "Name", name: "name", required: true }
+      - {label: "Website", name: "website", required: false }
+      - {label: "Year", name: "year", widget: "select", options: ["2019", "2018", "2017", "2016"], required: true}
 
   - label: "2018 Graduates"
     name: "class2018"
     folder: "src/content/graduates"
-    filter: {field: "language", value: "en"}
+    create: true
+    filter: {field: "year", value: "2018"}
     fields:
-      - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Path", name: "path", required: true }
+      - {label: "Name", name: "name", required: true }
+      - {label: "Website", name: "website", required: false }
+      - {label: "Year", name: "year", widget: "select", options: ["2019", "2018", "2017", "2016"], required: true}
+
   - label: "2017 Graduates"
     name: "class2017"
     folder: "src/content/graduates"
-    filter: {field: "language", value: "es"}
+    create: true
+    filter: {field: "year", value: "2017"}
     fields:
-      - {label: "Lenguaje", name: "language", widget: "select", options: ["en", "es"]}
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Contenido", name: "body", widget: "markdown"}
+      - {label: "Path", name: "path", required: true }
+      - {label: "Name", name: "name", required: true }
+      - {label: "Website", name: "website", required: false }
+      - {label: "Year", name: "year", widget: "select", options: ["2019", "2018", "2017", "2016"], required: true}
+
+  - label: "2016 Graduates"
+    name: "class2016"
+    folder: "src/content/graduates"
+    create: true
+    filter: {field: "year", value: "2016"}
+    fields:
+      - {label: "Path", name: "path", required: true }
+      - {label: "Name", name: "name", required: true }
+      - {label: "Website", name: "website", required: false }
+      - {label: "Year", name: "year", widget: "select", options: ["2019", "2018", "2017", "2016"], required: true}
 
 
