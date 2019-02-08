@@ -1,5 +1,5 @@
 ---
-path: /aaron-thadathil
+path: /graduates/aaron-thadathil
 name: Aaron Thadathil
 website:
 year: '2016'

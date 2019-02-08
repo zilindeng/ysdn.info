@@ -1,5 +1,5 @@
 ---
-path: /allister-marks
+path: /graduates/allister-marks
 name: Allister Marks
 website: https://www.allistermarks.com/
 year: '2019'

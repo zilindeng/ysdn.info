@@ -1,5 +1,5 @@
 ---
-path: /michael-calcada
+path: /graduates/michael-calcada
 name: Michael Calcada
 website: 'http://www.michaelcalcada.com/'
 year: '2018'

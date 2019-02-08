@@ -1,5 +1,5 @@
 ---
-path: /sandra-han
+path: /graduates/sandra-han
 name: Sandra Han
 website: www.sandra-han.com
 year: '2018'

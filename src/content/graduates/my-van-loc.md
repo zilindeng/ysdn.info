@@ -1,5 +1,5 @@
 ---
-path: /my-van-loc
+path: /graduates/my-van-loc
 name: My Van Loc
 website: myvanloc.com
 year: '2018'

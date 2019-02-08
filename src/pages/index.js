@@ -10,19 +10,19 @@ const IndexPage = ({
   },
 }) => {
   const Y2019 = edges
-    .filter(edge => edge.node.frontmatter.year === 2019) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.year === '2019') // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)
 
   const Y2018 = edges
-    .filter(edge => edge.node.frontmatter.year === 2018) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.year === '2018') // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)
 
   const Y2017 = edges
-    .filter(edge => edge.node.frontmatter.year === 2017) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.year === '2017') // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)  
 
   const Y2016 = edges
-    .filter(edge => edge.node.frontmatter.year === 2016) // You can filter your posts based on some criteria
+    .filter(edge => edge.node.frontmatter.year === '2016') // You can filter your posts based on some criteria
     .map(edge => <GraduateLink key={edge.node.id} post={edge.node} />)
 
   const Total = totalCount

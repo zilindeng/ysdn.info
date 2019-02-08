@@ -1,5 +1,5 @@
 ---
-path: /hira-kiani
+path: /graduates/hira-kiani
 name: Hira Kiani
 website: https://hirakiani.com/
 year: '2019'

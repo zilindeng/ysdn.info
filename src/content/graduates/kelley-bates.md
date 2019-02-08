@@ -1,5 +1,5 @@
 ---
-path: /kelley-bates
+path: /graduates/kelley-bates
 name: Kelley Bates
 website:
 year: '2017'

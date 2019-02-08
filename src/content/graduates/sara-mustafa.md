@@ -1,5 +1,5 @@
 ---
-path: /sara-mustafa
+path: /graduates/sara-mustafa
 name: Sara Mustafa
 website:
 year: '2017'

@@ -1,5 +1,5 @@
 ---
-path: /shiela-rocillo
+path: /graduates/shiela-rocillo
 name: Shiela Rocillo
 website:
 year: '2016'

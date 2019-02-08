@@ -1,5 +1,5 @@
 ---
-path: /gillian-wu
+path: /graduates/gillian-wu
 name: Gillian Wu
 website: www.gillianwu.com
 year: '2018'
