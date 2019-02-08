@@ -1,5 +1,5 @@
 ---
-path: /graduates/wei-wang
+path: wei-wang
 name: Wei Wang
 website:
 year: '2016'

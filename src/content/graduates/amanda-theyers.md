@@ -1,5 +1,5 @@
 ---
-path: /graduates/amanda-theyers
+path: amanda-theyers
 name: Amanda Theyers
 website:
 year: '2016'

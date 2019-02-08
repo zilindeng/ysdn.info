@@ -1,5 +1,5 @@
 ---
-path: /graduates/katarina-ng
+path: katarina-ng
 name: Katarina Ng
 website:
 year: '2016'

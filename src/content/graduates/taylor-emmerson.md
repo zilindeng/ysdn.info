@@ -1,5 +1,5 @@
 ---
-path: /graduates/taylor-emmerson
+path: taylor-emmerson
 name: Taylor Emmerson
 website:
 year: '2016'

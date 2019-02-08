@@ -1,5 +1,5 @@
 ---
-path: /graduates/michael-mifsud-sweeney
+path: michael-mifsud-sweeney
 name: Michael Mifsud Sweeney
 website:
 year: '2016'

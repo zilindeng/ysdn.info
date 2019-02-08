@@ -1,5 +1,5 @@
 ---
-path: /graduates/calvin-fennell
+path: calvin-fennell
 name: Calvin Fennell
 website:
 year: '2016'

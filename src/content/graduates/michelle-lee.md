@@ -1,5 +1,5 @@
 ---
-path: /graduates/michelle-lee
+path: michelle-lee
 name: Michelle Lee
 website:
 year: '2016'

@@ -1,5 +1,5 @@
 ---
-path: /graduates/shakura-galloway
+path: shakura-galloway
 name: Shakura Galloway
 website:
 year: '2016'

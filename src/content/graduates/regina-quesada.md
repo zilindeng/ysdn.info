@@ -1,5 +1,5 @@
 ---
-path: /graduates/regina-quesada
+path: regina-quesada
 name: Regina Quesada
 website:
 year: '2016'

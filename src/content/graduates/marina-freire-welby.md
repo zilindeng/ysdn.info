@@ -1,5 +1,5 @@
 ---
-path: /graduates/marina-freire-welby
+path: marina-freire-welby
 name: Marina Freire Welby
 website:
 year: '2016'

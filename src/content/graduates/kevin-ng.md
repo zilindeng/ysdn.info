@@ -1,5 +1,5 @@
 ---
-path: /graduates/kevin-ng
+path: kevin-ng
 name: Kevin Ng
 website:
 year: '2016'

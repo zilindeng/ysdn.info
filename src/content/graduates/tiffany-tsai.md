@@ -1,5 +1,5 @@
 ---
-path: /graduates/tiffany-tsai
+path: tiffany-tsai
 name: Tiffany Tsai
 website:
 year: '2016'

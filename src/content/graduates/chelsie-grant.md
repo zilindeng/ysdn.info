@@ -1,5 +1,5 @@
 ---
-path: /graduates/chelsie-grant
+path: chelsie-grant
 name: Chelsie Grant
 website:
 year: '2016'

@@ -1,5 +1,5 @@
 ---
-path: /graduates/karmen-ng
+path: karmen-ng
 name: Karmen Ng
 website:
 year: '2016'

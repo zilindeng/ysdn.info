@@ -1,5 +1,5 @@
 ---
-path: /graduates/trina-solanki
+path: trina-solanki
 name: Trina Solanki
 website:
 year: '2016'

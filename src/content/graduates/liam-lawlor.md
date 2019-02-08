@@ -1,5 +1,5 @@
 ---
-path: /graduates/liam-lawlor
+path: liam-lawlor
 name: Liam Lawlor
 website:
 year: '2016'

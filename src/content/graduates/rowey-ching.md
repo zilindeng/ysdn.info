@@ -1,5 +1,5 @@
 ---
-path: /graduates/rowey-ching
+path: rowey-ching
 name: Rowey Ching
 website:
 year: '2016'

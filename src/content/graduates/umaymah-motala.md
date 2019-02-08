@@ -1,5 +1,5 @@
 ---
-path: /graduates/umaymah-motala
+path: umaymah-motala
 name: Umaymah Motala
 website:
 year: '2016'

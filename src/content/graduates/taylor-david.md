@@ -1,5 +1,5 @@
 ---
-path: /graduates/taylor-david
+path: taylor-david
 name: Taylor David
 website:
 year: '2016'

@@ -1,5 +1,5 @@
 ---
-path: /graduates/julia-rao
+path: julia-rao
 name: Julia Rao
 website:
 year: '2016'
