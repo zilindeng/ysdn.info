@@ -1,5 +1,5 @@
 ---
-path: j-andrew-carenza
+path: /j-andrew-carenza
 name: J. Andrew Carenza
 website:
 year: '2018'

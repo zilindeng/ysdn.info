@@ -1,5 +1,5 @@
 ---
-path: yasamin-abdolvahabi
+path: /yasamin-abdolvahabi
 name: Yasamin Abdolvahabi
 website:
 year: '2019'

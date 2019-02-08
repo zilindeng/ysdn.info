@@ -1,5 +1,5 @@
 ---
-path: samantha-wiles
+path: /samantha-wiles
 name: Samantha Wiles
 website: https://www.samwiles.ca/
 year: '2019'

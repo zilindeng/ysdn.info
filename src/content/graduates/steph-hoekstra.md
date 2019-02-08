@@ -1,5 +1,5 @@
 ---
-path: steph-hoekstra
+path: /steph-hoekstra
 name: Steph Hoekstra
 website: 'https://www.stephhoekstra.com/'
 year: '2018'

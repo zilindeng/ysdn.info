@@ -1,5 +1,5 @@
 ---
-path: chloe-negrette
+path: /chloe-negrette
 name: Chloe Negrette
 website:
 year: '2016'

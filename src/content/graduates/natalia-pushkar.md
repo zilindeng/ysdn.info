@@ -1,5 +1,5 @@
 ---
-path: natalia-pushkar
+path: /natalia-pushkar
 name: Natalia Pushkar
 website:
 year: '2017'

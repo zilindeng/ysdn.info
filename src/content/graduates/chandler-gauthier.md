@@ -1,5 +1,5 @@
 ---
-path: chandler-gauthier
+path: /chandler-gauthier
 name: Chandler Gauthier
 website:
 year: '2016'

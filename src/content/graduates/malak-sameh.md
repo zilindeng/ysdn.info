@@ -1,5 +1,5 @@
 ---
-path: malak-sameh
+path: /malak-sameh
 name: Malak S. Mahmoud
 website: https://malaksdesigns.com
 year: '2019'

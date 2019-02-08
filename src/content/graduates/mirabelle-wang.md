@@ -1,5 +1,5 @@
 ---
-path: mirabelle-wang
+path: /mirabelle-wang
 name: Mirabelle Wang
 website: https://mirabellewang.com
 year: '2019'

@@ -1,5 +1,5 @@
 ---
-path: ian-vaasjo
+path: /ian-vaasjo
 name: Ian Vaasjo
 website:
 year: '2017'

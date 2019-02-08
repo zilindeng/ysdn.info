@@ -1,5 +1,5 @@
 ---
-path: nathan-grimberg
+path: /nathan-grimberg
 name: Nathan Grimberg
 website:
 year: '2016'

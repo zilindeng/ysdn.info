@@ -1,5 +1,5 @@
 ---
-path: larissa-ettlin
+path: /larissa-ettlin
 name: Larissa Ettlin
 website:
 year: '2017'

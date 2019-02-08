@@ -1,5 +1,5 @@
 ---
-path: carrie-trieu
+path: /carrie-trieu
 name: Carrie Trieu
 website: http://www.carrietrieu.com
 year: '2019'

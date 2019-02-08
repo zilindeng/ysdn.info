@@ -1,5 +1,5 @@
 ---
-path: gurleen-hansi
+path: /gurleen-hansi
 name: Gurleen Hansi
 website: https://www.ghansi.co/
 year: '2019'

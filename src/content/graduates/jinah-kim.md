@@ -1,5 +1,5 @@
 ---
-path: jinah-kim
+path: /jinah-kim
 name: Jinah Kim
 website:
 year: '2016'

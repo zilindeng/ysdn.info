@@ -1,5 +1,5 @@
 ---
-path: taryn-jacobs
+path: /taryn-jacobs
 name: Taryn Jacobs
 website: https://www.tarynjacobs.ca/
 year: '2019'

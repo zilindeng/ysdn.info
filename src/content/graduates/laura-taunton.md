@@ -1,5 +1,5 @@
 ---
-path: laura-taunton
+path: /laura-taunton
 name: Laura Taunton
 website:
 year: '2016'

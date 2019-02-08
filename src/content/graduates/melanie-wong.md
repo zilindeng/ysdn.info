@@ -1,5 +1,5 @@
 ---
-path: melanie-wong
+path: /melanie-wong
 name: Melanie Wong
 website:
 year: '2016'

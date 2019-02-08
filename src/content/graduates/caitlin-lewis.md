@@ -1,5 +1,5 @@
 ---
-path: caitlin-lewis
+path: /caitlin-lewis
 name: Caitlin Lewis
 website: https://www.caitlinmlewis.com
 year: '2019'

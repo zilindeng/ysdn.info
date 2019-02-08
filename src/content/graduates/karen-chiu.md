@@ -1,5 +1,5 @@
 ---
-path: karen-chiu
+path: /karen-chiu
 name: Karen Chiu
 website:
 year: '2016'

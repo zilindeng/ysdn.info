@@ -1,5 +1,5 @@
 ---
-path: mohit-gupta
+path: /mohit-gupta
 name: Mohit Gupta
 website: https://www.guptamohit.com/
 year: '2019'

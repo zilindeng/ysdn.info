@@ -1,5 +1,5 @@
 ---
-path: justine-beauregard
+path: /justine-beauregard
 name: Justine Beauregard
 website:
 year: '2017'

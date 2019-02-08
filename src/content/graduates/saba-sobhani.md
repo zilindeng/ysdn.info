@@ -1,5 +1,5 @@
 ---
-path: saba-sobhani
+path: /saba-sobhani
 name: Saba Sobhani
 website: sabasobhani.com
 year: '2018'

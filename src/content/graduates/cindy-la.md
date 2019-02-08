@@ -1,5 +1,5 @@
 ---
-path: cindy-la
+path: /cindy-la
 name: Cindy La
 website:
 year: '2017'

@@ -1,5 +1,5 @@
 ---
-path: julia-seo
+path: /julia-seo
 name: Julia Seo
 website:
 year: '2016'

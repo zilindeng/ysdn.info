@@ -1,5 +1,5 @@
 ---
-path: alexandra-hawthorne
+path: /alexandra-hawthorne
 name: Alexandra Hawthorne
 website: www.ahawth.com
 year: '2018'

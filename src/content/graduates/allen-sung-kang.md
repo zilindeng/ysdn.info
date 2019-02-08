@@ -1,5 +1,5 @@
 ---
-path: allen-sung-kang
+path: /allen-sung-kang
 name: Allen Sung Kang
 website:
 year: '2017'

@@ -1,5 +1,5 @@
 ---
-path: jordana-bauco
+path: /jordana-bauco
 name: Jordana Bauco
 website:
 year: '2016'
