@@ -1,6 +1,6 @@
 ---
 path: /graduates/carter-pryor
-name: Cater Pryor
+name: Carter Pryor
 website:
 year: '2016'
 ---
